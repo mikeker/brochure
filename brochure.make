@@ -1,17 +1,6 @@
 ; Basic brochure site make file
-; TODO: Build an install profile out of this so that we can setup users and
-;       placeholder content.
-; Setup after make runs:
-;  -> Setup database, user, and adjust settings.php.
-;  -> Investigate the ability to use drush si to run the installer.
-;  Then run the following:
-;     drush dis toolbar overlay
-;     drush en admin_menu admin_menu_toolbar backup_migrate better_formats boost ctools fontyourface google_fonts_api globalredirect less devel features pathologic media media_youtube omega_tools pathauto strongarm shadowbox wysiwyg views views_ui views_slideshow_cycle service_links mollom uuid uuid_features
-;     drush omega-subtheme "My Site Theme"
-
 core = 7.x
 api = 2
-projects[] = drupal
 
 
 ; Modules (use latest version)
@@ -62,14 +51,6 @@ projects[omega][type] = "theme"
 projects[] = omega_tools
 projects[] = delta
 projects[] = less
-
-
-; Features
-; --------
-projects[brochure][type] = module
-projects[brochure][subdir] = custom
-projects[brochure][download][type] = git
-projects[brochure][download][url] = git://github.com/mikeker/brochure.git
 
 
 ; Libraries
