@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Brochure Slideshow feature.
+ */
+
+include_once('brochure_slideshow.features.inc');

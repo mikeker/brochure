@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Brochure Basic feature.
+ */
+
+include_once('brochure_basic.features.inc');
