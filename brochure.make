@@ -66,6 +66,7 @@ projects[] = less
 
 ; Features
 ; --------
+projects[brochure][type] = module
 projects[brochure][subdir] = custom
 projects[brochure][download][type] = git
 projects[brochure][download][url] = git://github.com/mikeker/brochure.git
