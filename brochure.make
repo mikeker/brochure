@@ -38,9 +38,9 @@ projects[] = wysiwyg
 projects[better_formats][version] = 1.x-dev
 
 ; Use Media 2.x -- unstable, yes, but that's where the dev-love has been going...
-project[media][version] = 2.0-unstable2
-project[media_flickr][version] = 1.0-alpha1
-project[media_youtube][version] = 1.0-alpha5
+projects[media][version] = 2.0-unstable2
+projects[media_flickr][version] = 1.0-alpha1
+projects[media_youtube][version] = 1.0-alpha5
 
 ; Alpha2 of UUID causes install.php to break, use the latest -dev release until
 ; a new recommended release is rolled
