@@ -8,6 +8,7 @@ api = 2
 projects[] = admin_menu
 projects[] = backup_migrate
 projects[] = boost
+projects[] = context
 projects[] = ctools
 projects[] = devel
 projects[] = entity
@@ -28,8 +29,6 @@ projects[] = strongarm
 projects[] = token
 projects[] = views
 projects[] = views_slideshow
-projects[] = uuid
-projects[] = uuid_features
 projects[] = wysiwyg
 
 
@@ -43,11 +42,16 @@ project[media][version] = 2.0-unstable2
 project[media_flickr][version] = 1.0-alpha1
 project[media_youtube][version] = 1.0-alpha5
 
+; Alpha2 of UUID causes install.php to break, use the latest -dev release until
+; a new recommended release is rolled
+projects[uuid][version] = 1.x-dev
+projects[uuid_features][version] = 1.x-dev
+
 
 ; Themes (and theme related)
 ; --------------------------
 projects[omega][version] = 3.0
-projects[omega][type] = "theme"
+projects[omega][type] = theme
 projects[] = omega_tools
 projects[] = delta
 projects[] = less
