@@ -32,14 +32,21 @@ will be executed when distro.make is executed.
 @TODO: Build an install profile out of this so that we can setup users and placeholder content.
 
 After executing the distro.make file, do the following:
-  - Setup database, database user, and adjust settings.php accordingly.
+  - Setup database and database user for this site:
     (See http://drupal.org/documentation/install/create-database)
-  - Visit install.php on your localhost to setup Drupal using the default install profile.
-  - Then run the following:
-      drush dis toolbar
-      drush en admin_menu admin_menu_toolbar backup_migrate better_formats boost ctools fontyourface google_fonts_api globalredirect less devel features pathologic media media_youtube omega_tools pathauto strongarm shadowbox wysiwyg views views_ui views_slideshow_cycle service_links mollom
-      drush omega-subtheme "My Site Theme"
-      drush en my_site_theme
+      @TODO: finish:
+      mysqladmin -u sysadmin -p create brochure_db
+  - Execute the following in shell:
+    drush si standard \
+      -- account-name = admin \
+      -- account-mail = info@mikekeran.com  # Clearly, this should be changed... \
+      -- site-name = Test Site Install \
+      -- site-mail = info@mikekeran.com # Clearly, this should be changed as well... \
+  - Then run the following in shell:
+      drush dis toolbar; \
+      drush en admin_menu admin_menu_toolbar backup_migrate better_formats boost ctools fontyourface google_fonts_api globalredirect less devel features pathologic media media_youtube omega_tools pathauto strongarm shadowbox wysiwyg views views_ui views_slideshow_cycle service_links mollom \
+      drush omega-subtheme "My Site Theme" \
+      drush en my_site_theme 
       @TODO:  uuid uuid_features?
   - Then turn on which features you want:
       drush en brochure_basic brochure_blog brochure_slideshow
