@@ -39,6 +39,7 @@ After executing the distro.make file, do the following:
       drush dis toolbar
       drush en admin_menu admin_menu_toolbar backup_migrate better_formats boost ctools fontyourface google_fonts_api globalredirect less devel features pathologic media media_youtube omega_tools pathauto strongarm shadowbox wysiwyg views views_ui views_slideshow_cycle service_links mollom
       drush omega-subtheme "My Site Theme"
+      drush en my_site_theme
       @TODO:  uuid uuid_features?
   - Then turn on which features you want:
       drush en brochure_basic brochure_blog brochure_slideshow

@@ -29,7 +29,6 @@ projects[] = strongarm
 projects[] = token
 projects[] = views
 projects[] = views_slideshow
-projects[] = wysiwyg
 
 
 ; Modules (specific version)
@@ -46,6 +45,10 @@ projects[media_youtube][version] = 1.0-alpha5
 ; a new recommended release is rolled
 projects[uuid][version] = 1.x-dev
 projects[uuid_features][version] = 1.x-dev
+
+; Includes Features/Exportables support until a new stable > 2.1 is released.
+; see http://drupal.org/node/624018
+projects[wysiwyg][version] = 2.x-dev 
 
 
 ; Themes (and theme related)
@@ -68,13 +71,13 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 ; jQuery Cycle plugin, plus JSON2 plugin so we can set advanced options for Views Slideshow
-;libraries[jquery_cycle][download][type]= "get"
-;libraries[jquery_cycle][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.latest.min.js"
-;libraries[jquery_cycle][download][filename] = "jquery.cycle.all.min.js"
-;libraries[jquery_cycle][directory_name] = "jquery.cycle"
-;libraries[jquery_cycle][destination] = "libraries"
-;libraries[json2][download][type]= "get"
-;libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
-;libraries[json2][download][filename] = "json2.js"
-;libraries[json2][directory_name] = "json2"
-;libraries[json2][destination] = "libraries"
+libraries[jquery_cycle][download][type]= "get"
+libraries[jquery_cycle][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.latest.min.js"
+libraries[jquery_cycle][download][filename] = "jquery.cycle.all.min.js"
+libraries[jquery_cycle][directory_name] = "jquery.cycle"
+libraries[jquery_cycle][destination] = "libraries"
+libraries[json2][download][type]= "get"
+libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
+libraries[json2][download][filename] = "json2.js"
+libraries[json2][directory_name] = "json2"
+libraries[json2][destination] = "libraries"
