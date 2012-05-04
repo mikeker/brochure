@@ -1,0 +1,50 @@
+drush dl\
+  fontyourface\
+  admin_menu\
+  backup_migrate\
+  better_formats-7.x-1.x-dev\
+  ctools\
+  features\
+  devel\
+  file_entity\
+  globalredirect\
+  google_analytics\
+  jcarousel\
+  libraries\
+  media-2.0-unstable3\
+  menu_trail_by_path\
+  nodequeue\
+  pathauto\
+  pathologic\
+  service_links\
+  shadowbox\
+  strongarm\
+  token\
+  views\
+  wysiwyg-7.x-2.x-dev\
+  wysiwyg_filter
+  
+drush dis toolbar
+
+drush en -y\
+  admin_menu\
+  admin_menu_toolbar\
+  backup_migrate\
+  better_formats\
+  boost\
+  ctools\
+  devel\
+  fontyourface\
+  google_fonts_api\
+  globalredirect\
+  features\
+  jcarousel\
+  media\
+  pathauto\
+  pathologic\
+  service_links\
+  strongarm\
+  shadowbox\
+  wysiwyg\
+  views\
+  views_ui
