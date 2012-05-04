@@ -16,8 +16,8 @@ projects[] = features
 projects[] = file_entity
 projects[] = fontyourface
 projects[] = globalredirect
+projects[] = jcarousel
 projects[] = libraries
-projects[] = mollom
 projects[] = nodequeue
 projects[] = pathauto
 projects[] = pathologic
@@ -28,7 +28,6 @@ projects[] = skinr
 projects[] = strongarm
 projects[] = token
 projects[] = views
-projects[] = views_slideshow
 
 
 ; Modules (specific version)
@@ -41,11 +40,6 @@ projects[media][version] = 2.0-unstable3
 projects[media_flickr][version] = 1.0-alpha1
 projects[media_youtube][version] = 1.0-alpha5
 
-; Alpha2 of UUID causes install.php to break, use the latest -dev release until
-; a new recommended release is rolled
-projects[uuid][version] = 1.x-dev
-projects[uuid_features][version] = 1.x-dev
-
 ; Includes Features/Exportables support until a new stable > 2.1 is released.
 ; see http://drupal.org/node/624018
 projects[wysiwyg][version] = 2.x-dev 
@@ -53,12 +47,7 @@ projects[wysiwyg][version] = 2.x-dev
 
 ; Themes (and theme related)
 ; --------------------------
-projects[omega][version] = 3.0
-projects[omega][type] = theme
-projects[] = omega_tools
-projects[] = delta
-projects[] = less
-
+; TODO: Figure out what's next...
 
 ; Libraries
 ; ---------
@@ -69,13 +58,3 @@ libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
-
-; jQuery Cycle plugin, plus JSON2 plugin so we can set advanced options for Views Slideshow
-libraries[jquery_cycle][download][type]= "git"
-libraries[jquery_cycle][download][url] = "git://github.com/malsup/cycle.git"
-libraries[jquery_cycle][directory_name] = "jquery.cycle"
-libraries[jquery_cycle][destination] = "libraries"
-libraries[json2][download][type]= "git"
-libraries[json2][download][url] = "git://github.com/douglascrockford/JSON-js.git"
-libraries[json2][directory_name] = "json2"
-libraries[json2][destination] = "libraries"

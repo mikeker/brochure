@@ -104,15 +104,6 @@ function brochure_basic_user_default_permissions() {
     'module' => 'dashboard',
   );
 
-  // Exported permission: access mollom statistics
-  $permissions['access mollom statistics'] = array(
-    'name' => 'access mollom statistics',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'mollom',
-  );
-
   // Exported permission: access service links
   $permissions['access service links'] = array(
     'name' => 'access service links',
@@ -275,15 +266,6 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: administer mollom
-  $permissions['administer mollom'] = array(
-    'name' => 'administer mollom',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'mollom',
-  );
-
   // Exported permission: administer nodes
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
@@ -408,15 +390,6 @@ function brochure_basic_user_default_permissions() {
       0 => 'administrator',
     ),
     'module' => 'system',
-  );
-
-  // Exported permission: bypass mollom protection
-  $permissions['bypass mollom protection'] = array(
-    'name' => 'bypass mollom protection',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'mollom',
   );
 
   // Exported permission: bypass node access
