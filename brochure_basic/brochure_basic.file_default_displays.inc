@@ -10,7 +10,7 @@
 function brochure_basic_file_default_displays() {
   $export = array();
 
-  $file_display = new stdClass;
+  $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_file_default';
   $file_display->weight = -45;
@@ -18,7 +18,7 @@ function brochure_basic_file_default_displays() {
   $file_display->settings = '';
   $export['image__default__file_field_file_default'] = $file_display;
 
-  $file_display = new stdClass;
+  $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_file_rendered';
   $file_display->weight = -46;
@@ -28,7 +28,7 @@ function brochure_basic_file_default_displays() {
   );
   $export['image__default__file_field_file_rendered'] = $file_display;
 
-  $file_display = new stdClass;
+  $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_file_table';
   $file_display->weight = -50;
@@ -36,7 +36,7 @@ function brochure_basic_file_default_displays() {
   $file_display->settings = '';
   $export['image__default__file_field_file_table'] = $file_display;
 
-  $file_display = new stdClass;
+  $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_file_url_plain';
   $file_display->weight = -49;
@@ -44,7 +44,7 @@ function brochure_basic_file_default_displays() {
   $file_display->settings = '';
   $export['image__default__file_field_file_url_plain'] = $file_display;
 
-  $file_display = new stdClass;
+  $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_media_large_icon';
   $file_display->weight = -48;
@@ -52,7 +52,7 @@ function brochure_basic_file_default_displays() {
   $file_display->settings = '';
   $export['image__default__file_field_media_large_icon'] = $file_display;
 
-  $file_display = new stdClass;
+  $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'image__default__file_image';
   $file_display->weight = -47;

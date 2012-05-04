@@ -10,7 +10,7 @@
 function brochure_basic_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: access administration menu
+  // Exported permission: access administration menu.
   $permissions['access administration menu'] = array(
     'name' => 'access administration menu',
     'roles' => array(
@@ -19,7 +19,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
-  // Exported permission: access administration pages
+  // Exported permission: access administration pages.
   $permissions['access administration pages'] = array(
     'name' => 'access administration pages',
     'roles' => array(
@@ -28,7 +28,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: access all views
+  // Exported permission: access all views.
   $permissions['access all views'] = array(
     'name' => 'access all views',
     'roles' => array(
@@ -37,7 +37,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'views',
   );
 
-  // Exported permission: access backup and migrate
+  // Exported permission: access backup and migrate.
   $permissions['access backup and migrate'] = array(
     'name' => 'access backup and migrate',
     'roles' => array(
@@ -46,7 +46,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'backup_migrate',
   );
 
-  // Exported permission: access backup files
+  // Exported permission: access backup files.
   $permissions['access backup files'] = array(
     'name' => 'access backup files',
     'roles' => array(
@@ -55,7 +55,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'backup_migrate',
   );
 
-  // Exported permission: access comments
+  // Exported permission: access comments.
   $permissions['access comments'] = array(
     'name' => 'access comments',
     'roles' => array(
@@ -66,7 +66,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'comment',
   );
 
-  // Exported permission: access content
+  // Exported permission: access content.
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
@@ -77,7 +77,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: access content overview
+  // Exported permission: access content overview.
   $permissions['access content overview'] = array(
     'name' => 'access content overview',
     'roles' => array(
@@ -86,7 +86,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: access contextual links
+  // Exported permission: access contextual links.
   $permissions['access contextual links'] = array(
     'name' => 'access contextual links',
     'roles' => array(
@@ -95,7 +95,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'contextual',
   );
 
-  // Exported permission: access dashboard
+  // Exported permission: access dashboard.
   $permissions['access dashboard'] = array(
     'name' => 'access dashboard',
     'roles' => array(
@@ -104,7 +104,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'dashboard',
   );
 
-  // Exported permission: access service links
+  // Exported permission: access service links.
   $permissions['access service links'] = array(
     'name' => 'access service links',
     'roles' => array(
@@ -113,7 +113,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'service_links',
   );
 
-  // Exported permission: access site in maintenance mode
+  // Exported permission: access site in maintenance mode.
   $permissions['access site in maintenance mode'] = array(
     'name' => 'access site in maintenance mode',
     'roles' => array(
@@ -122,7 +122,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: access site reports
+  // Exported permission: access site reports.
   $permissions['access site reports'] = array(
     'name' => 'access site reports',
     'roles' => array(
@@ -131,7 +131,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: access user profiles
+  // Exported permission: access user profiles.
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
     'roles' => array(
@@ -140,7 +140,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: add media from remote sources
+  // Exported permission: add media from remote sources.
   $permissions['add media from remote sources'] = array(
     'name' => 'add media from remote sources',
     'roles' => array(
@@ -149,7 +149,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'media_internet',
   );
 
-  // Exported permission: administer @font-your-face
+  // Exported permission: administer @font-your-face.
   $permissions['administer @font-your-face'] = array(
     'name' => 'administer @font-your-face',
     'roles' => array(
@@ -158,7 +158,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'fontyourface',
   );
 
-  // Exported permission: administer actions
+  // Exported permission: administer actions.
   $permissions['administer actions'] = array(
     'name' => 'administer actions',
     'roles' => array(
@@ -167,7 +167,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: administer backup and migrate
+  // Exported permission: administer backup and migrate.
   $permissions['administer backup and migrate'] = array(
     'name' => 'administer backup and migrate',
     'roles' => array(
@@ -176,7 +176,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'backup_migrate',
   );
 
-  // Exported permission: administer blocks
+  // Exported permission: administer blocks.
   $permissions['administer blocks'] = array(
     'name' => 'administer blocks',
     'roles' => array(
@@ -185,7 +185,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'block',
   );
 
-  // Exported permission: administer comments
+  // Exported permission: administer comments.
   $permissions['administer comments'] = array(
     'name' => 'administer comments',
     'roles' => array(
@@ -194,7 +194,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'comment',
   );
 
-  // Exported permission: administer content types
+  // Exported permission: administer content types.
   $permissions['administer content types'] = array(
     'name' => 'administer content types',
     'roles' => array(
@@ -203,7 +203,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: administer features
+  // Exported permission: administer features.
   $permissions['administer features'] = array(
     'name' => 'administer features',
     'roles' => array(
@@ -212,7 +212,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'features',
   );
 
-  // Exported permission: administer files
+  // Exported permission: administer files.
   $permissions['administer files'] = array(
     'name' => 'administer files',
     'roles' => array(
@@ -221,7 +221,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: administer filters
+  // Exported permission: administer filters.
   $permissions['administer filters'] = array(
     'name' => 'administer filters',
     'roles' => array(
@@ -230,7 +230,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'filter',
   );
 
-  // Exported permission: administer image styles
+  // Exported permission: administer image styles.
   $permissions['administer image styles'] = array(
     'name' => 'administer image styles',
     'roles' => array(
@@ -239,16 +239,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'image',
   );
 
-  // Exported permission: administer less
-  $permissions['administer less'] = array(
-    'name' => 'administer less',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'less',
-  );
-
-  // Exported permission: administer menu
+  // Exported permission: administer menu.
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
     'roles' => array(
@@ -257,7 +248,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'menu',
   );
 
-  // Exported permission: administer modules
+  // Exported permission: administer modules.
   $permissions['administer modules'] = array(
     'name' => 'administer modules',
     'roles' => array(
@@ -266,7 +257,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: administer nodes
+  // Exported permission: administer nodes.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
     'roles' => array(
@@ -275,7 +266,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: administer pathauto
+  // Exported permission: administer pathauto.
   $permissions['administer pathauto'] = array(
     'name' => 'administer pathauto',
     'roles' => array(
@@ -284,7 +275,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'pathauto',
   );
 
-  // Exported permission: administer permissions
+  // Exported permission: administer permissions.
   $permissions['administer permissions'] = array(
     'name' => 'administer permissions',
     'roles' => array(
@@ -293,7 +284,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: administer search
+  // Exported permission: administer search.
   $permissions['administer search'] = array(
     'name' => 'administer search',
     'roles' => array(
@@ -302,7 +293,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: administer shadowbox
+  // Exported permission: administer shadowbox.
   $permissions['administer shadowbox'] = array(
     'name' => 'administer shadowbox',
     'roles' => array(
@@ -311,7 +302,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'shadowbox',
   );
 
-  // Exported permission: administer shortcuts
+  // Exported permission: administer shortcuts.
   $permissions['administer shortcuts'] = array(
     'name' => 'administer shortcuts',
     'roles' => array(
@@ -320,7 +311,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: administer site configuration
+  // Exported permission: administer site configuration.
   $permissions['administer site configuration'] = array(
     'name' => 'administer site configuration',
     'roles' => array(
@@ -329,7 +320,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: administer software updates
+  // Exported permission: administer software updates.
   $permissions['administer software updates'] = array(
     'name' => 'administer software updates',
     'roles' => array(
@@ -338,7 +329,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: administer taxonomy
+  // Exported permission: administer taxonomy.
   $permissions['administer taxonomy'] = array(
     'name' => 'administer taxonomy',
     'roles' => array(
@@ -347,7 +338,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: administer themes
+  // Exported permission: administer themes.
   $permissions['administer themes'] = array(
     'name' => 'administer themes',
     'roles' => array(
@@ -356,7 +347,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: administer url aliases
+  // Exported permission: administer url aliases.
   $permissions['administer url aliases'] = array(
     'name' => 'administer url aliases',
     'roles' => array(
@@ -365,7 +356,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'path',
   );
 
-  // Exported permission: administer users
+  // Exported permission: administer users.
   $permissions['administer users'] = array(
     'name' => 'administer users',
     'roles' => array(
@@ -374,7 +365,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: administer views
+  // Exported permission: administer views.
   $permissions['administer views'] = array(
     'name' => 'administer views',
     'roles' => array(
@@ -383,7 +374,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'views',
   );
 
-  // Exported permission: block IP addresses
+  // Exported permission: block IP addresses.
   $permissions['block IP addresses'] = array(
     'name' => 'block IP addresses',
     'roles' => array(
@@ -392,7 +383,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: bypass node access
+  // Exported permission: bypass node access.
   $permissions['bypass node access'] = array(
     'name' => 'bypass node access',
     'roles' => array(
@@ -401,7 +392,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: cancel account
+  // Exported permission: cancel account.
   $permissions['cancel account'] = array(
     'name' => 'cancel account',
     'roles' => array(
@@ -410,7 +401,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: change own username
+  // Exported permission: change own username.
   $permissions['change own username'] = array(
     'name' => 'change own username',
     'roles' => array(
@@ -419,7 +410,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: create page content
+  // Exported permission: create page content.
   $permissions['create page content'] = array(
     'name' => 'create page content',
     'roles' => array(
@@ -428,7 +419,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: create url aliases
+  // Exported permission: create url aliases.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
     'roles' => array(
@@ -437,7 +428,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'path',
   );
 
-  // Exported permission: customize shortcut links
+  // Exported permission: customize shortcut links.
   $permissions['customize shortcut links'] = array(
     'name' => 'customize shortcut links',
     'roles' => array(
@@ -446,7 +437,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: delete any page content
+  // Exported permission: delete any page content.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
     'roles' => array(
@@ -455,7 +446,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete backup files
+  // Exported permission: delete backup files.
   $permissions['delete backup files'] = array(
     'name' => 'delete backup files',
     'roles' => array(
@@ -464,7 +455,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'backup_migrate',
   );
 
-  // Exported permission: delete own page content
+  // Exported permission: delete own page content.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
     'roles' => array(
@@ -473,7 +464,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete revisions
+  // Exported permission: delete revisions.
   $permissions['delete revisions'] = array(
     'name' => 'delete revisions',
     'roles' => array(
@@ -482,7 +473,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete terms in 1
+  // Exported permission: delete terms in 1.
   $permissions['delete terms in 1'] = array(
     'name' => 'delete terms in 1',
     'roles' => array(
@@ -491,7 +482,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: display drupal links
+  // Exported permission: display drupal links.
   $permissions['display drupal links'] = array(
     'name' => 'display drupal links',
     'roles' => array(
@@ -500,7 +491,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
-  // Exported permission: edit any page content
+  // Exported permission: edit any page content.
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
     'roles' => array(
@@ -509,7 +500,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: edit file
+  // Exported permission: edit file.
   $permissions['edit file'] = array(
     'name' => 'edit file',
     'roles' => array(
@@ -518,7 +509,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: edit own comments
+  // Exported permission: edit own comments.
   $permissions['edit own comments'] = array(
     'name' => 'edit own comments',
     'roles' => array(
@@ -527,7 +518,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'comment',
   );
 
-  // Exported permission: edit own page content
+  // Exported permission: edit own page content.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
     'roles' => array(
@@ -536,7 +527,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: edit terms in 1
+  // Exported permission: edit terms in 1.
   $permissions['edit terms in 1'] = array(
     'name' => 'edit terms in 1',
     'roles' => array(
@@ -545,7 +536,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: flush caches
+  // Exported permission: flush caches.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
     'roles' => array(
@@ -554,7 +545,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
-  // Exported permission: import media
+  // Exported permission: import media.
   $permissions['import media'] = array(
     'name' => 'import media',
     'roles' => array(
@@ -563,7 +554,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'media',
   );
 
-  // Exported permission: manage features
+  // Exported permission: manage features.
   $permissions['manage features'] = array(
     'name' => 'manage features',
     'roles' => array(
@@ -572,7 +563,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'features',
   );
 
-  // Exported permission: notify of path changes
+  // Exported permission: notify of path changes.
   $permissions['notify of path changes'] = array(
     'name' => 'notify of path changes',
     'roles' => array(
@@ -581,7 +572,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'pathauto',
   );
 
-  // Exported permission: perform backup
+  // Exported permission: perform backup.
   $permissions['perform backup'] = array(
     'name' => 'perform backup',
     'roles' => array(
@@ -590,7 +581,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'backup_migrate',
   );
 
-  // Exported permission: post comments
+  // Exported permission: post comments.
   $permissions['post comments'] = array(
     'name' => 'post comments',
     'roles' => array(
@@ -601,7 +592,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'comment',
   );
 
-  // Exported permission: restore from backup
+  // Exported permission: restore from backup.
   $permissions['restore from backup'] = array(
     'name' => 'restore from backup',
     'roles' => array(
@@ -610,7 +601,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'backup_migrate',
   );
 
-  // Exported permission: revert revisions
+  // Exported permission: revert revisions.
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
     'roles' => array(
@@ -619,7 +610,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: search content
+  // Exported permission: search content.
   $permissions['search content'] = array(
     'name' => 'search content',
     'roles' => array(
@@ -628,7 +619,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: select account cancellation method
+  // Exported permission: select account cancellation method.
   $permissions['select account cancellation method'] = array(
     'name' => 'select account cancellation method',
     'roles' => array(
@@ -637,49 +628,56 @@ function brochure_basic_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: show format selection for comment
+  // Exported permission: show format selection for comment.
   $permissions['show format selection for comment'] = array(
     'name' => 'show format selection for comment',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: show format selection for file
+  // Exported permission: show format selection for file.
   $permissions['show format selection for file'] = array(
     'name' => 'show format selection for file',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: show format selection for node
+  // Exported permission: show format selection for node.
   $permissions['show format selection for node'] = array(
     'name' => 'show format selection for node',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: show format selection for taxonomy_term
+  // Exported permission: show format selection for taxonomy_term.
   $permissions['show format selection for taxonomy_term'] = array(
     'name' => 'show format selection for taxonomy_term',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: show format selection for user
+  // Exported permission: show format selection for user.
   $permissions['show format selection for user'] = array(
     'name' => 'show format selection for user',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: show format tips
+  // Exported permission: show format tips.
   $permissions['show format tips'] = array(
     'name' => 'show format tips',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: show more format tips link
+  // Exported permission: show more format tips link.
   $permissions['show more format tips link'] = array(
     'name' => 'show more format tips link',
     'roles' => array(),
+    'module' => 'better_formats',
   );
 
-  // Exported permission: skip comment approval
+  // Exported permission: skip comment approval.
   $permissions['skip comment approval'] = array(
     'name' => 'skip comment approval',
     'roles' => array(
@@ -690,7 +688,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'comment',
   );
 
-  // Exported permission: switch shortcut sets
+  // Exported permission: switch shortcut sets.
   $permissions['switch shortcut sets'] = array(
     'name' => 'switch shortcut sets',
     'roles' => array(
@@ -699,7 +697,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: use PHP for service visibility
+  // Exported permission: use PHP for service visibility.
   $permissions['use PHP for service visibility'] = array(
     'name' => 'use PHP for service visibility',
     'roles' => array(
@@ -708,7 +706,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'service_links',
   );
 
-  // Exported permission: use advanced search
+  // Exported permission: use advanced search.
   $permissions['use advanced search'] = array(
     'name' => 'use advanced search',
     'roles' => array(
@@ -717,7 +715,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: use text format filtered_html
+  // Exported permission: use text format filtered_html.
   $permissions['use text format filtered_html'] = array(
     'name' => 'use text format filtered_html',
     'roles' => array(
@@ -726,7 +724,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'filter',
   );
 
-  // Exported permission: use text format full_html
+  // Exported permission: use text format full_html.
   $permissions['use text format full_html'] = array(
     'name' => 'use text format full_html',
     'roles' => array(
@@ -735,7 +733,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'filter',
   );
 
-  // Exported permission: view file
+  // Exported permission: view file.
   $permissions['view file'] = array(
     'name' => 'view file',
     'roles' => array(
@@ -746,7 +744,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: view own unpublished content
+  // Exported permission: view own unpublished content.
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
     'roles' => array(
@@ -755,7 +753,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: view revisions
+  // Exported permission: view revisions.
   $permissions['view revisions'] = array(
     'name' => 'view revisions',
     'roles' => array(
@@ -764,7 +762,7 @@ function brochure_basic_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: view the administration theme
+  // Exported permission: view the administration theme.
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
     'roles' => array(
